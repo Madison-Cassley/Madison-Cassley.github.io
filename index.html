@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="nav-container">
+        <div class="logo">Your Name</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="about">
+    <div class="hero-main">
+        <h1>Your Name</h1>
+        <h2>Computer Science Student • C# & .NET</h2>
+
+        <p>
+            I am a computer science student with a focus on C# and software development. 
+            I enjoy building applications that solve real problems and experimenting with new technologies.
+        </p>
+
+        <div class="hero-tags">
+            <span class="tag">C# / .NET</span>
+            <span class="tag">Object-Oriented Programming</span>
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">Team Projects</span>
+        </div>
+
+        <div class="hero-links">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn secondary" href="https://github.com/USERNAME" target="_blank" rel="noopener">
+                GitHub Profile
+            </a>
+        </div>
+    </div>
+</section>
+
+<main>
+    <section id="skills">
+        <h3>Skills</h3>
+        <div class="two-column">
+            <div>
+                <p>
+                    Below is a summary of the technical skills I have been developing through coursework 
+                    and independent projects.
+                </p>
+                <div class="skills-list">
+                    <span>C#</span>
+                    <span>.NET / .NET Core</span>
+                    <span>OOP</span>
+                    <span>Git & GitHub</span>
+                    <span>Visual Studio</span>
+                    <span>SQL basics</span>
+                    <span>HTML & CSS</span>
+                </div>
+            </div>
+            <div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>Computer Science Studies</h4>
+                        <div class="meta">College / University • 20XX – Present</div>
+                        <p>
+                            Courses in programming, algorithms, data structures, and software engineering.
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Team & Personal Projects</h4>
+                        <div class="meta">C#, GitHub</div>
+                        <p>
+                            Built several projects including console applications, small tools, and 
+                            course assignments hosted on GitHub.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h3>Projects</h3>
+        <p>
+            These projects are hosted in public GitHub repositories. They demonstrate my current skills in C# 
+            and general software development.
+        </p>
+
+        <div class="card-grid" style="margin-top: 1rem;">
+            <!-- Project 1 -->
+            <article class="card">
+                <h4>Project 1 Title</h4>
+                <div class="meta">C# • Individual / Course Project</div>
+                <p>
+                    Short description of what this project does, the problem it solves, or the assignment it was built for.
+                    Mention any interesting features or challenges you solved.
+                </p>
+                <a class="repo-link" href="https://github.com/USERNAME/REPO1" target="_blank" rel="noopener">
+                    View GitHub Repository →
+                </a>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="card">
+                <h4>Project 2 Title</h4>
+                <div class="meta">C# • Individual / Team Project</div>
+                <p>
+                    Short description of this project. Include technologies used and the main functionality.
+                </p>
+                <a class="repo-link" href="https://github.com/USERNAME/REPO2" target="_blank" rel="noopener">
+                    View GitHub Repository →
+                </a>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="card">
+                <h4>Project 3 Title</h4>
+                <div class="meta">Language / Tools</div>
+                <p>
+                    Short description. You can include a school assignment, a personal experiment, or a tool you built.
+                </p>
+                <a class="repo-link" href="https://github.com/USERNAME/REPO3" target="_blank" rel="noopener">
+                    View GitHub Repository →
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h3>Contact & Additional Information</h3>
+        <div class="two-column">
+            <div>
+                <p>
+                    I am currently looking for opportunities to apply and grow my skills in software development.
+                    Feel free to contact me about internships, part-time work, or collaborative projects.
+                </p>
+                <p style="margin-top: 0.75rem;">
+                    <strong>Email:</strong> your.email@example.com<br>
+                    <strong>GitHub:</strong> <a href="https://github.com/USERNAME" target="_blank" rel="noopener">github.com/USERNAME</a>
+                </p>
+            </div>
+            <div>
+                <div class="card">
+                    <h4>Beyond Coding</h4>
+                    <p>
+                        You can mention volunteer work, clubs, hackathons, tutoring, or hobbies that show 
+                        initiative, creativity, or leadership (e.g., mentoring classmates, game jams, etc.).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    © <span id="year"></span> Your Name — Portfolio
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
