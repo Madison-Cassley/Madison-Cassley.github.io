@@ -21,16 +21,6 @@ The site showcases my background as a Computer Science student, my skills, and a
 
 ---
 
-## Tech Stack
-
-- **HTML5**
-- **CSS3**
-- Hosted using **GitHub Pages**
-
-No frameworks or build tools are required.
-
----
-
 ## Project Structure
 
 ```text
